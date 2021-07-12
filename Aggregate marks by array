@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+   
+   float marks[5];
+   int i;
+   float total=0,aggregate;
+   printf("\nEnter marks in 5 subjects out of 100\n");
+   for(i=0;i<5;i++)
+       scanf("%f",&marks[i]);
+       
+    //aggregate=(marks[0]+marks[1]+marks[2]+marks[3]+marks[4])/5;  //or use loop given below
+    
+   for(i=0;i<5;i++)
+   {
+      total=total+marks[i];
+   }
+   aggregate=total/5;
+   printf("The aggregate marks %f and percentage will be%f",aggregate, aggregate);
+       return 0;
+    
+}
