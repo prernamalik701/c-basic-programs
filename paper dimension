@@ -1,0 +1,30 @@
+//dimension of paper
+#include <stdio.h>
+
+int l=1189,b=841;
+int main()
+{
+    int i, w=841, h=1189, t;
+     for(i=0;i<=8;i++)
+     {
+         printf("\n A%d: %d x %d", i, w, h);
+         t = h;
+         h = w;
+         w = t/2;
+     }
+     return 0;
+} 
+----------------------------------------------------------------------------------------------------------------------------
+                   output
+A0: 841 x 1189
+ A1: 594 x 841
+ A2: 420 x 594
+ A3: 297 x 420
+ A4: 210 x 297
+ A5: 148 x 210
+ A6: 105 x 148
+ A7: 74 x 105
+ A8: 52 x 74
+
+...Program finished with exit code 0
+Press ENTER to exit console.
