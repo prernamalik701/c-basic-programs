@@ -1,0 +1,14 @@
+//print ASCII value
+#include<stdio.h>
+int main()
+{
+   int i;
+   char c;
+  // printf("enter the character /number to print ASCII value\n");
+   //scanf("%c",&c);
+   for(i=0;i<=255;i++)
+   {
+       printf("ASCII value is :%c = %d\n",i,i);
+   }
+   return 0;
+}
