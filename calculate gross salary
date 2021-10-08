@@ -1,0 +1,30 @@
+// to calculate gross salary
+#include<stdio.h>
+int main()
+{
+    float bs,da,hra,gs;
+    printf("enter the basic salary from keyboard\n");
+    scanf("%f",&bs);
+    da = (40/100)*bs;
+    printf("dearness allowance of employee:%f\n",da);
+    hra = (20/100)*bs;
+    printf("house rent allowance of employee:%f\n",hra);
+    gs = bs + hra + da;
+    printf("gross salary of the employee\n");
+    printf("%f", gs);
+    return 0;
+    
+}
+
+
+---------------------------------------------------------------------------------------------------------------------------
+                    output
+enter the basic salary from keyboard
+9000
+dearness allowance of employee:0.000000
+house rent allowance of employee:0.000000
+gross salary of the employee
+9000.000000
+
+...Program finished with exit code 0
+Press ENTER to exit console.
