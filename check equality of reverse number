@@ -1,0 +1,30 @@
+//to reverse number and check its equality
+#include <stdio.h>
+int main()
+{
+    int num,rem, reverse;
+    printf("enter the five digit number through keyboard\n");
+    scanf("%d",&num);
+    while(num!=0)
+    {
+    rem = num % 10;
+    reverse = reverse * 10 + rem;
+    num/=10;
+    }
+    printf("num is reverse:%d\n",reverse);
+    if(num == reverse)
+    printf("both the number is equal \n");
+    else
+    printf("both the number is not equal");
+    
+    return 0;
+}
+----------------------------------------------------------------------------------------------------------------------
+                                        output 
+enter the five digit number through keyboard
+12345
+num is reverse:54321
+both the number is not equal
+
+...Program finished with exit code 0
+Press ENTER to exit console.
