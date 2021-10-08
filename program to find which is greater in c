@@ -1,0 +1,32 @@
+//find which is greater
+#include<stdio.h>
+int main ()
+{
+    int l,b,p,a;
+    printf("enter length and breadth through kryboard\n");
+    scanf("%d%d",&l,&b);
+    a = l * b;
+    printf("area of rectangle is:%d\n",a);
+    p =( 2 * (l + b));
+    printf("perimetre of rectangle is:%d\n",p);
+    
+   if(a > p)
+   printf("area is greater than perimetre\n");
+   
+  else
+  printf("perimetre is greater than area");
+    return 0;
+}
+
+--------------------------------------------------------------------------------------------------------------------------
+                            output 
+enter length and breadth through kryboard
+36
+45
+area of rectangle is:1620
+perimetre of rectangle is:162
+area is greater than perimetre
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
