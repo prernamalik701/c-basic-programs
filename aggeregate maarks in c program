@@ -1,0 +1,30 @@
+//  aggeregate marks                                                        
+#include<stdio.h>
+int main()
+{
+    float comp,eng,math,chem,phy,total,percentage;
+    printf("enter the marks in all five subject from keyboard\n");
+    scanf("%f%f%f%f%f",&comp,&eng,&math,&chem,&phy);
+    total = (comp +eng + math + chem + phy);
+    printf("total marks is  :%2f\n",total);
+    percentage =( (total/5.0) * 100);
+    printf("average marks is :%2f\n",percentage);
+    
+
+    return 0;
+    
+}
+--------------------------------------------------------------------------------------------------------------------------
+                                                          output
+enter the marks in all five subject from keyboard
+12
+23
+34
+45
+56
+total marks is  :170.000000
+average marks is :3400.000000
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
