@@ -1,0 +1,24 @@
+//to find a factorial number
+
+#include<stdio.h>
+int main()
+{
+    int f,i,num;
+    printf("enter number through keyboard\n");
+    scanf("%d",&num);
+    for(i=1;i<=num;i++)
+    {
+    if(num)
+    f = (num -i) ;
+    printf("%d",f);
+    }
+    return 0;
+}
+------------------------------------------------------------
+                output -1
+enter number through keyboard
+20
+191817161514131211109876543210
+
+...Program finished with exit code 0
+Press ENTER to exit console.
