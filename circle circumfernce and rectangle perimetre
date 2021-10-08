@@ -1,0 +1,28 @@
+//  to find circumferenceof circle and perimetre of rectangle
+#include<stdio.h>
+int main()
+{
+    float l,b,r,p,c;
+    printf("enter the radius, length,breadth from keyboard\n");
+    scanf("%f%f%f",&l,&b,&r);
+      p =  (l + b);
+    printf("perimetre of rectangle  is  :%f\n",p);
+    c = 3.14 * 2 * r ;
+    printf("circumference of cicle is :%f\n",c);
+
+    return 0;
+    
+    
+}
+---------------------------------------------------------------------------------------------------------------------------------
+                     output
+enter the radius, length,breadth from keyboard
+3
+4
+5
+perimetre of rectangle  is  :7.000000
+circumference of cicle is :31.400000
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
