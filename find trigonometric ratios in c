@@ -1,0 +1,35 @@
+//find all trigonometric ratios
+#include <stdio.h>
+#include<math.h>
+#define pi 3.14
+int main()
+{
+
+float degree,theta,radian;
+    printf("enter the angle indegree from keyboard\n");
+    scanf("%f",&degree);
+    theta = degree * (pi/180.0);
+     printf("sin(%f) = %f \n", degree,sin(radian));
+     printf("cos(%f) =%f \n",degree,cos(radian));
+     printf("tan(%f) =%f \n",degree,tan(radian));
+     printf("cot(%f)  = %f \n", degree,1/tan(radian));
+     printf("sec(%f)  = %f \n",degree,1/cos(radian));
+     printf("cosec(%f) =%f \n",degree,1/sin(radian));
+    
+   
+     return 0;
+} 
+---------------------------------------------------------------------------------------------------------------------------
+                   output
+enter the angle indegree from keyboard
+30
+sin(30.000000) = 0.000000 
+cos(30.000000) =1.000000 
+tan(30.000000) =0.000000 
+cot(30.000000)  = inf 
+sec(30.000000)  = 1.000000 
+cosec(30.000000) =inf 
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
