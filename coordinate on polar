@@ -1,0 +1,25 @@
+//find coordinate (x,y)
+#include <stdio.h>
+#include<math.h>
+#define pi 3.14
+int main()
+{
+
+float r,theta,x,y;
+    printf("ener the value of x and y\n");
+    scanf("%f%f",&x,&y);
+    r = sqrt(x*x + y*y);
+    theta = atan(y/x);
+    theta = (180.0 * theta)/pi;
+    printf("%f %f",r,theta);
+     return 0;
+} 
+----------------------------------------------------------------------------------------------------------------------------
+                             output
+ener the value of x and y
+2
+3
+3.605551 56.338493
+
+...Program finished with exit code 0
+Press ENTER to exit console.
