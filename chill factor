@@ -1,0 +1,26 @@
+//FIND THE TEMP , VELOCITY AND CHILL FACTOR
+#include <stdio.h>
+#include<math.h>
+#define pi 3.14
+int main()
+{
+
+float wcf,v,t;
+    printf("enter the value of tempreature and wind\n");
+    scanf("%f%f",&t,&v);
+    wcf = 35.74 + 0.6215 * t + ( 0.4275 * t - 35.75) * pow  (v, 0.16);
+     
+    
+   
+    printf("%f",wcf);
+     return 0;
+} 
+-----------------------------------------------------------------------------------------------------------------------------
+                    output
+enter the value of tempreature and wind
+12
+34
+-10.634161
+
+...Program finished with exit code 0
+Press ENTER to exit console.
