@@ -1,0 +1,26 @@
+//calculate overtime pay of 10 employee
+
+#include<stdio.h>
+int main()
+{
+    int i,hr,bonus;
+    for(i=1;i<=10;i++);
+    {
+    printf("overtime paid the employee\n");
+    scanf("%d",&hr);
+    }
+    if(hr>40)
+    bonus = (hr - 40) * 12;
+    printf("%d",bonus);
+    
+    return 0;
+}
+
+------------------------------------------------------------
+                            output
+overtime paid the employee
+30000
+359520
+
+...Program finished with exit code 0
+Press ENTER to exit console.
