@@ -1,0 +1,35 @@
+// check the leap year
+#include<stdio.h>
+int main()
+{
+    int year;
+    printf("enter the year through keyboard\n");
+    scanf("%d",&year);
+    if(year%4==0 && year%100 && year % 400)
+    printf("this year is leap year\n");
+    else 
+    printf("this year is not a leap year");
+    return 0;
+}
+-------------------------------------------------------------
+                     output-1
+
+enter the year through keyboard
+2021
+this year is not a leap year
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+
+
+
+
+                      output-2
+enter the year through keyboard
+2012
+this year is leap year
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
